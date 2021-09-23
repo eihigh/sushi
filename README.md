@@ -2,7 +2,7 @@
 絶賛開発中のため実用はしないでください。Here be dragons.
 
 ## Screenshot
-[Screenshot](screenshot.png)
+![Screenshot](screenshot.png)
 
 ## Installation
 Go1.16 or later required.
@@ -17,3 +17,8 @@ go install github.com/eihigh/sushi/cmd/sushi@master
 - コマンドが終了するのを待たずに次のコマンドを実行できます
 - 各コマンドの出力は別々に保存されます
 - Key Up / Down で表示するコマンドの出力を切り替えます
+- Ctrl-Z で attach / detach をトグルします
+   - attach 中にキー入力することでコマンドの stdin に入力できます
+
+## TODOs
+See [issue #1](https://github.com/eihigh/sushi/issues/1) .
